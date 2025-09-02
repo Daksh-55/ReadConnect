@@ -14,9 +14,9 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: 'https://oazllwjphlsgqbyfbrky.supabase.co',
+    url: 'https://qkofhjpafqyuamcaqacv.supabase.co',
     anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9hemxsd2pwaGxzZ3FieWZicmt5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU2NTk0MDcsImV4cCI6MjA2MTIzNTQwN30.N0HD9rOTh7fulUAXiFazMGJT-ZKgXnfBiLI4NRmOk-I',
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFrb2ZoanBhZnF5dWFtY2FxYWN2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY4NDU4MDMsImV4cCI6MjA3MjQyMTgwM30.J0phNXiL0IiuB7kSbAmya3jtmovxaQzl5awUyAojiGg',
   );
 
   runApp(const ProviderScope(child: MyApp()));
